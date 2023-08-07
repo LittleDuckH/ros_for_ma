@@ -1,0 +1,14 @@
+[01m[K/home/ma/train/ros_for_ma/src/serial_example/src/serial_example.cpp:[m[K In constructor ‘[01m[KSerialPortNode::SerialPortNode()[m[K’:
+[01m[K/home/ma/train/ros_for_ma/src/serial_example/src/serial_example.cpp:214:32:[m[K [01;31m[Kerror: [m[K‘[01m[KSerialPortNode::owned_ctx_[m[K’ will be initialized after [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Werror=reorder]8;;[m[K]
+  214 |     std::unique_ptr<IoContext> [01;31m[Kowned_ctx_[m[K;
+      |                                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ma/train/ros_for_ma/src/serial_example/src/serial_example.cpp:210:59:[m[K [01;31m[Kerror: [m[K  ‘[01m[Kstd::unique_ptr<drivers::serial_driver::SerialDriver> SerialPortNode::serial_driver_[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Werror=reorder]8;;[m[K]
+  210 |     std::unique_ptr<drivers::serial_driver::SerialDriver> [01;31m[Kserial_driver_[m[K = nullptr;
+      |                                                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ma/train/ros_for_ma/src/serial_example/src/serial_example.cpp:93:14:[m[K [01;31m[Kerror: [m[K  when initialized here [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Werror=reorder]8;;[m[K]
+   93 |     explicit [01;31m[KSerialPortNode[m[K()
+      |              [01;31m[K^~~~~~~~~~~~~~[m[K
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

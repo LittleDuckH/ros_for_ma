@@ -1,0 +1,2 @@
+Invoking command in '/home/ma/train/ros_for_ma/build/serial_example': /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8
+Invoked command in '/home/ma/train/ros_for_ma/build/serial_example' returned '2': /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8

@@ -1,0 +1,2 @@
+Invoking command in '/home/ma/train/ros_for_ma/build/serial_example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8
+Invoked command in '/home/ma/train/ros_for_ma/build/serial_example' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8

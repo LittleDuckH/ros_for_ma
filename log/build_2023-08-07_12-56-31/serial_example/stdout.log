@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_example.cpp.o[0m
+[100%] [32m[1mLinking CXX executable serial_node[0m
+[100%] Built target serial_node
+-- Install configuration: ""
+-- Installing: /home/ma/train/ros_for_ma/install/serial_example/lib/serial_example/serial_node
+-- Set runtime path of "/home/ma/train/ros_for_ma/install/serial_example/lib/serial_example/serial_node" to ""
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/config
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/config/serial_driver.yaml
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/launch
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/launch/serial_demo.launch.py
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/ament_index/resource_index/package_run_dependencies/serial_example
+-- Installing: /home/ma/train/ros_for_ma/install/serial_example/share/ament_index/resource_index/parent_prefix_path/serial_example
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/environment/ament_prefix_path.sh
+-- Installing: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/environment/path.sh
+-- Installing: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/environment/path.dsv
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/local_setup.bash
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/local_setup.sh
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/local_setup.zsh
+-- Installing: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/local_setup.dsv
+-- Installing: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/package.dsv
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/ament_index/resource_index/packages/serial_example
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/cmake/serial_exampleConfig.cmake
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/cmake/serial_exampleConfig-version.cmake
+-- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/package.xml

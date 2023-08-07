@@ -1,0 +1,21 @@
+[0.012s] Invoking command in '/home/ma/train/ros_for_ma/build/serial_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8
+[0.030s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.119s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.137s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.138s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.142s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.191s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.191s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.359s] -- Found serial_driver: 1.2.0 (/opt/ros/humble/share/serial_driver/cmake)
+[0.506s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.547s] [31mCMake Error at CMakeLists.txt:59 (ament_auto_package):
+[0.547s]   Unknown CMake command "ament_auto_package".
+[0.548s] 
+[0.548s] [0m
+[0.548s] -- Configuring incomplete, errors occurred!
+[0.548s] See also "/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/CMakeOutput.log".
+[0.552s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.553s] Invoked command in '/home/ma/train/ros_for_ma/build/serial_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8

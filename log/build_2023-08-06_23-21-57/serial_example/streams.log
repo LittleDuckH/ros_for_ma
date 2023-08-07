@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/ma/train/ros_for_ma/build/serial_example': /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8
+[0.029s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.116s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.134s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.136s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.140s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.190s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.360s] -- Found serial_driver: 1.2.0 (/opt/ros/humble/share/serial_driver/cmake)
+[0.507s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.540s] Error parsing '/home/ma/train/ros_for_ma/src/serial_example/package.xml':
+[0.566s] Traceback (most recent call last):
+[0.567s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.567s]     main()
+[0.567s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.567s]     raise e
+[0.567s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.567s]     package = parse_package_string(
+[0.567s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.569s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.569s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ma/train/ros_for_ma/src/serial_example/package.xml':
+[0.570s] Error(s):
+[0.570s] - The manifest of package "serial_example" (with format version 3) must not contain the following tags: launch
+[0.579s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.579s]   execute_process(/usr/bin/python3.10
+[0.579s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.579s]   /home/ma/train/ros_for_ma/src/serial_example/package.xml
+[0.579s]   /home/ma/train/ros_for_ma/build/serial_example/ament_cmake_core/package.cmake)
+[0.579s]   returned error code 1
+[0.579s] Call Stack (most recent call first):
+[0.579s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.579s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.579s]   CMakeLists.txt:40 (ament_lint_auto_find_test_dependencies)
+[0.579s] 
+[0.579s] [0m
+[0.580s] -- Configuring incomplete, errors occurred!
+[0.580s] See also "/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/CMakeOutput.log".
+[0.584s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.585s] Invoked command in '/home/ma/train/ros_for_ma/build/serial_example' returned '2': /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8

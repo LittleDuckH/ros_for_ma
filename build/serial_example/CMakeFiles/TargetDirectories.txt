@@ -1,0 +1,11 @@
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/uninstall.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/serial_example_uninstall.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/serial_example.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/serial_example_node.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/test.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/edit_cache.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/rebuild_cache.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/list_install_components.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/install.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/install/local.dir
+/home/ma/train/ros_for_ma/build/serial_example/CMakeFiles/install/strip.dir

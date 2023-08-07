@@ -1,0 +1,10 @@
+[0.009s] Invoking command in '/home/ma/train/ros_for_ma/build/serial_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_example.cpp.o[0m
+[0.271s] [01m[K/home/ma/train/ros_for_ma/src/serial_example/src/serial_example.cpp:75:10:[m[K [01;31m[Kfatal error: [m[Krm_serial_driver/crc.hpp: No such file or directory
+[0.272s]    75 | #include [01;31m[K"rm_serial_driver/crc.hpp"[m[K
+[0.272s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.272s] compilation terminated.
+[0.276s] gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_example.cpp.o] Error 1
+[0.276s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+[0.276s] gmake: *** [Makefile:146: all] Error 2
+[0.278s] Invoked command in '/home/ma/train/ros_for_ma/build/serial_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8

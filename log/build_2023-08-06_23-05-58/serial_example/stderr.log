@@ -1,0 +1,7 @@
+[01m[K/home/ma/train/ros_for_ma/src/serial_example/src/serial_example.cpp:61:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Quaternion.h: No such file or directory
+   61 | #include [01;31m[K<tf2/LinearMath/Quaternion.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

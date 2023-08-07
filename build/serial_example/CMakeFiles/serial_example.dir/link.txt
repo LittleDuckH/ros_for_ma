@@ -1,0 +1,2 @@
+/usr/bin/ar qc libserial_example.a CMakeFiles/serial_example.dir/src/serial_example.cpp.o
+/usr/bin/ranlib libserial_example.a

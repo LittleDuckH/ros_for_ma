@@ -1,0 +1,31 @@
+[0.012s] Invoking command in '/home/ma/train/ros_for_ma/build/serial_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_example.cpp.o[0m
+[2.731s] [100%] [32m[1mLinking CXX executable serial_node[0m
+[2.832s] [100%] Built target serial_node
+[2.839s] Invoked command in '/home/ma/train/ros_for_ma/build/serial_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8
+[2.860s] Invoking command in '/home/ma/train/ros_for_ma/build/serial_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ma/train/ros_for_ma/build/serial_example
+[2.864s] -- Install configuration: ""
+[2.864s] -- Installing: /home/ma/train/ros_for_ma/install/serial_example/lib/serial_example/serial_node
+[2.865s] -- Set runtime path of "/home/ma/train/ros_for_ma/install/serial_example/lib/serial_example/serial_node" to ""
+[2.865s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/config
+[2.865s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/config/serial_driver.yaml
+[2.865s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/launch
+[2.865s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/launch/serial_demo.launch.py
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/ament_index/resource_index/package_run_dependencies/serial_example
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/ament_index/resource_index/parent_prefix_path/serial_example
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/environment/ament_prefix_path.sh
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/environment/ament_prefix_path.dsv
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/environment/path.sh
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/environment/path.dsv
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/local_setup.bash
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/local_setup.sh
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/local_setup.zsh
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/local_setup.dsv
+[2.866s] -- Installing: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/package.dsv
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/ament_index/resource_index/packages/serial_example
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/cmake/serial_exampleConfig.cmake
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/cmake/serial_exampleConfig-version.cmake
+[2.866s] -- Up-to-date: /home/ma/train/ros_for_ma/install/serial_example/share/serial_example/package.xml
+[2.868s] Invoked command in '/home/ma/train/ros_for_ma/build/serial_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ma/train/ros_for_ma/build/serial_example

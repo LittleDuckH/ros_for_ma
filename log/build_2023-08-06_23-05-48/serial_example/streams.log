@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/ma/train/ros_for_ma/build/serial_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target serial_node[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_node.dir/src/serial_example.cpp.o[0m
+[0.074s] [01m[K/home/ma/train/ros_for_ma/src/serial_example/src/serial_example.cpp:61:10:[m[K [01;31m[Kfatal error: [m[Ktf2/LinearMath/Quaternion.h: No such file or directory
+[0.074s]    61 | #include [01;31m[K<tf2/LinearMath/Quaternion.h>[m[K
+[0.074s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.074s] compilation terminated.
+[0.074s] gmake[2]: *** [CMakeFiles/serial_node.dir/build.make:76: CMakeFiles/serial_node.dir/src/serial_example.cpp.o] Error 1
+[0.074s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/serial_node.dir/all] Error 2
+[0.075s] gmake: *** [Makefile:146: all] Error 2
+[0.076s] Invoked command in '/home/ma/train/ros_for_ma/build/serial_example' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ma/train/ros_for_ma/build/serial_example -- -j8 -l8
